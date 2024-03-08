@@ -1,6 +1,6 @@
 {
   "name": "@streamdal/apollo-server-plugin",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Streamdal's Apollo Server Plugin for code-native data pipelines",
   "main": "index.js",
   "scripts": {
