@@ -75,9 +75,11 @@ export const streamdalPlugin = async (streamdalConfigs?: StreamdalConfigs) => {
           request,
           operationName,
           contextValue,
+          operation,
         }: GraphQLRequestContextDidResolveOperation<StreamdalContext>) {
           if (
             operationName !== "IntrospectionQuery" &&
+            operation?.operation === "mutation" &&
             streamdal &&
             //
             // Suppress ts errors as body is typed as unknown
