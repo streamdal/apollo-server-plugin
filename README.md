@@ -1,4 +1,4 @@
-# Streamdal code-native data pipeline plugin Apollo Server  
+# Streamdal code-native data pipeline plugin for Apollo Server  
 
 ##### Getting started
 
